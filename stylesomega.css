@@ -1,0 +1,99 @@
+	.logo{
+		padding: 5px 5px;
+		height: 60px;
+		width: 60px
+	}
+
+	.navbar{
+		height: 80px;
+		width: 100%;	
+		background-color: rgba(0,0,0,0.4);
+		border: 0.2px solid grey;
+
+	}
+
+	.navbar ul{
+		float: right;
+		margin-right: 20px;
+		
+	}
+	
+	.navbar ul li{
+		margin: 0px 15px;
+		display: inline-block;
+		line-height: 40px;
+	}
+
+	.navbar ul li a{
+		text-decoration: none;
+		color: #ff0066;
+		font-family: Cooper black;
+		font-size: 20px;
+		padding: 3px 10px;
+		transition: .6s;
+
+	}
+
+	.navbar ul li a.active,
+	.navbar ul li a:hover{
+		background: #00ffff;
+		border-radius: 15px;
+	}
+	.center{
+		
+		
+
+	}
+
+	.center h1{
+		font-family: Cooper black;
+		font-size: 60px;
+		text-shadow: -5px 0 1px #00FFFF, 0 0 3px #00FFFF ;
+		color: #ff0066;
+		position: absolute;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		user-select: none;
+	}
+
+	.center .buttons{
+		margin: 3px 280px;
+		position: absolute;
+		top: 50%;
+		left: 30%;
+		transform: translate(-50%,-50%);
+		display: inline-block;
+		text-align: center;
+		
+	}
+
+	.buttons button{
+		height: 50px;
+		width: 150px;
+		font-size: 18px;
+		font-weight: bold;
+		font-family: Cooper black;
+		color: #ff0066;
+		background-color: transparent;
+		outline: none;
+		text-align: center;
+
+		
+		border: 1px solid grey;
+		cursor: pointer;
+		border-radius: 10px;
+	}
+	.buttons button:hover{
+		background: #00ffff;
+		transition: .5s;
+		border-radius: 25px;
+	}
+
+	
+	body{
+		background-image: url('Vwallpaper.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 100%;
+	}
